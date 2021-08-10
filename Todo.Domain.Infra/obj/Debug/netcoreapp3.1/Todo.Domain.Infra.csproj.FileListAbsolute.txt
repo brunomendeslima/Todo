@@ -1,0 +1,15 @@
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.deps.json
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.runtimeconfig.json
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.runtimeconfig.dev.json
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.dll
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.pdb
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.dll
+C:\projetos\Todo2\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.pdb
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.csprojAssemblyReference.cache
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.AssemblyInfoInputs.cache
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.AssemblyInfo.cs
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.csproj.CoreCompileInputs.cache
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.csproj.CopyComplete
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.dll
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.pdb
+C:\projetos\Todo2\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6S5pJyQdDD+Cz3gGD2yawechjhzvF48NEzQaXbrtledw/l0wusPhWys6XZsQ1UP8kdvcbEGLuc2WEaiv9EDi4Q==",
+  "success": true,
+  "projectFilePath": "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno.lima\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
+    "C:\\Users\\bruno.lima\\.nuget\\packages\\mongodb.bson\\2.13.0\\mongodb.bson.2.13.0.nupkg.sha512",
+    "C:\\Users\\bruno.lima\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
