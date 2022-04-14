@@ -53,18 +53,8 @@ namespace Todo.Domain.Api
             services.AddTransient<ITodoRepository, TodoRepository>();
             services.AddTransient<ITodoMongoRespository, TodoMongoRepository>();
             services.AddTransient<TodoHandler, TodoHandler>();
-
-            // Your web app's Firebase configuration
-            // var firebaseConfig = {
-            //     apiKey: "AIzaSyCmSPYG2g6te5rIORKeJkiDImsUbBi87do",
-            //     authDomain: "todo-web-e7fe1.firebaseapp.com",
-            //     projectId: "todo-web-e7fe1",
-            //     storageBucket: "todo-web-e7fe1.appspot.com",
-            //     messagingSenderId: "287856238964",
-            //     appId: "1:287856238964:web:62c57dda4abf58aa820c21"
-            // };    
-            services
-            
+                
+            services            
             .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options => 
             {

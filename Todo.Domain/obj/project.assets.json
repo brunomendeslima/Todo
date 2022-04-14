@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net6.0": {
       "Flunt/1.0.4": {
         "type": "package",
         "compile": {
@@ -102,7 +102,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net6.0": [
       "MongoDB.Bson >= 2.13.0",
       "flunt >= 1.0.4"
     ]
@@ -113,26 +113,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj",
+      "projectUniqueName": "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj",
       "projectName": "Todo.Domain",
-      "projectPath": "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj",
+      "projectPath": "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj",
       "packagesPath": "C:\\Users\\bruno.lima\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\Todo2\\Todo.Domain\\obj\\",
+      "outputPath": "C:\\projetos\\Todo\\Todo.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bruno.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\bruno.lima\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -143,8 +141,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "MongoDB.Bson": {
             "target": "Package",
@@ -170,7 +168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

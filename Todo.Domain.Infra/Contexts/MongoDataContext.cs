@@ -14,9 +14,7 @@ namespace Todo.Domain.Infra.Contexts
     public class MongoDataContext
     {
         private readonly MongoClient _client;
-
-        private readonly IMongoDatabase _database;
-        
+        private readonly IMongoDatabase _database;        
 
         public MongoDataContext(IConfiguration configuration)
         {                                    

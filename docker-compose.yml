@@ -1,14 +1,14 @@
 version: "3"
 services:
     mssql:
-        image: mcr.microsoft.com/mssql/server:2019-latest
-        container_name: mssql
-        restart: "always"
-        ports:
-          - "1433:1433"
-        environment:
-          - ACCEPT_EULA=Y
-          - SA_PASSWORD=sa@12345
+      image: mcr.microsoft.com/mssql/server:2019-latest
+      container_name: mssql
+      restart: "always"
+      ports:
+        - "1433:1433"
+      environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=sa@12345
 
     mongodb:
       image: "mongo:latest"

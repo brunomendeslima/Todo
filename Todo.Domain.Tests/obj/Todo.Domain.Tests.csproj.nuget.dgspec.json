@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Todo2\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj": {}
+    "C:\\projetos\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Todo2\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj": {
+    "C:\\projetos\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Todo2\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\projetos\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
         "projectName": "Todo.Domain.Tests",
-        "projectPath": "C:\\projetos\\Todo2\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
+        "projectPath": "C:\\projetos\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
         "packagesPath": "C:\\Users\\bruno.lima\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Todo2\\Todo.Domain.Tests\\obj\\",
+        "outputPath": "C:\\projetos\\Todo\\Todo.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bruno.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\bruno.lima\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj"
+              "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -41,12 +39,20 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.Xunit": {
+              "target": "Package",
+              "version": "[3.9.58, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -80,33 +86,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj": {
+    "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj",
         "projectName": "Todo.Domain",
-        "projectPath": "C:\\projetos\\Todo2\\Todo.Domain\\Todo.Domain.csproj",
+        "projectPath": "C:\\projetos\\Todo\\Todo.Domain\\Todo.Domain.csproj",
         "packagesPath": "C:\\Users\\bruno.lima\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Todo2\\Todo.Domain\\obj\\",
+        "outputPath": "C:\\projetos\\Todo\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bruno.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\bruno.lima\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -117,8 +121,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MongoDB.Bson": {
               "target": "Package",
@@ -144,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

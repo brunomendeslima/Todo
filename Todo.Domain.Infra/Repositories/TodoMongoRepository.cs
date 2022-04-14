@@ -37,6 +37,9 @@ namespace Todo.Domain.Infra.Repositories
             return await  _mongoDataContext.TodoItens.Find(filter).ToListAsync();
         }
 
-       
+        Task<IEnumerable<TodoItem>> ITodoMongoRespository.GetAll(string user)
+        {
+            throw new NotImplementedException();
+        }        
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ogPr4nzu60AEGT+rEbzjKH2xEVn66cihTAmJMhcACijSM0NZTqTa7YbiGnovJ8Lq2KJDu4HxYxc+0qy/3jSVw==",
+  "dgSpecHash": "OnUuz/P7/OX6+BSG3/cgtFKzddF9e9rNtcfvtAFcAXNpRwv6IxXZPIV4/BRBsT/mdBim7Q+xWCNSIF3X2lzKNg==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\Todo2\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+  "projectFilePath": "C:\\projetos\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno.lima\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\bruno.lima\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
